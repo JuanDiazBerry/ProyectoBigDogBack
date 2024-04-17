@@ -4,7 +4,6 @@ import os
 import json
 from flask_cors import CORS, cross_origin
 
-
 load_dotenv(override=False)
 
 url = os.environ.get("URL")
